@@ -17,16 +17,7 @@ interface carResponeList {
 interface State {
     cars: []
 }*/
-export default class Main extends Component/* <{}, State>  */{
-    /*  
-    state: State = {
-         cars: []
-     }
-
-    async loadCars() {
-        
-    }
-    */
+export default class Main extends Component{
     render() {
         return <>
         <div className="container-fluid">
